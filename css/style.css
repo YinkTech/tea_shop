@@ -33,6 +33,7 @@
 	font-size: 40px;
 	max-width: 100%;
 	max-height: 100%;
+	text-align: center;
 }
 
 .explore-button:hover {
@@ -58,7 +59,6 @@
   background: #fff;
 	display: flex;
 	flex-direction: column;
-	margin: 10px;
 }
 
 .second-article-section {
@@ -69,7 +69,7 @@
 	width: 300px;
 	background: url("../img/abtimg.jpg");
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
 
@@ -80,7 +80,8 @@
 
 .learnmore-button-cont {
   border: 2px solid rgb(68, 106, 68);
-	width: 200px;
+	width: 190px;
+	text-align: center;
 }
 
 .learnmore-button {
@@ -89,7 +90,6 @@
 	background-color: rgb(68, 106, 68);
 	font-size: 30px;
 	max-width: 100%;
-	margin-left: 3px;
 	max-height: 100%;
 	padding: 1px;
 }
@@ -109,7 +109,8 @@
 
 .inventory-button-cont {
   border: 2px solid rgb(68, 106, 68);
-	width: 180px;
+	width: 170px;
+	text-align: center;
 }
 
 .inventory-button {
