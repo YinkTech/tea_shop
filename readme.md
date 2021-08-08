@@ -23,7 +23,7 @@ The project has 3 web pages - the main page, the Product page and the Services p
 
 ## Live Demo
 
-[Live Demo Link](/)
+[Live Demo Link](https://yinktech.github.io/tea_shop)
 
 
 ## Author
