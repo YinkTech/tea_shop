@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.main-header {
+	transition: background-color 0.4s ease;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url("../img/bg-header.jpg");
+  background-size: 100% 100%;
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 580px;
+}
+
+.bars {
+  color: rgb(68, 106, 68);
+  font-size: 40px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+}
+
+.explore-button-cont {
+  border: 2px solid rgb(68, 106, 68);
+	width: 170px;
+}
+.explore-button {
+	color: #000;
+	text-decoration: none;
+	background-color: rgb(68, 106, 68);
+	font-size: 40px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.explore-button:hover {
+	transition: all ease-in-out 0.4s;
+  text-decoration: underline rgb(88, 136, 88);
+  color: #fff;
+}
+
+.colorbottom {
+  background: linear-gradient(to right, rgb(88, 136, 88), rgb(248, 248, 27) , rgb(88, 136, 88));
+	height: 5px;
+}
+
+.first-arcticle {
+  background: rgb(221, 221, 221);
+	display: grid;
+	grid-template-columns: auto;
+	flex-direction: column;
+	letter-spacing: 1px;
+}
+
+.second-article {
+  background: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.second-article-section {
+  border: 7px solid rgb(88, 136, 88);
+	background: rgb(88, 136, 88);
+	border-radius: 20px 10px 20px 10px;
+	height: 306px;
+	width: 450px;
+}
+
+.second-article-aside {
+  padding-left: 70px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.first-arcticle {
+		grid-template-columns: auto auto;
+	}
+
+	.second-article {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.first-arcticle {
+		grid-template-columns: auto auto auto auto;
+	}
+
+	.second-article {
+		flex-direction: row;
+		margin: 100px;
+	}
+
+	.second-article-section {
+		border: 7px solid rgb(88, 136, 88);
+		background: rgb(88, 136, 88);
+		border-radius: 20px 10px 20px 10px;
+		height: 306px;
+		width: 450px;
+	}
+	
+	.second-article-aside {
+		padding-left: 70px;
+	}
+	
+}
