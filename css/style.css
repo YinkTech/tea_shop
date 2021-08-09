@@ -66,12 +66,16 @@
 	border: 7px solid rgb(88, 136, 88);
 	background: rgb(88, 136, 88);
 	border-radius: 20px 10px 20px 10px;
-	height: 200px;
-	width: 300px;
+	height: 100%;
+	width: 100%;
 	background: url("../img/abtimg.jpg");
 	background-position: center;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+}
+
+.second-article-section-img {
+	height: 300px;
 }
 
 .second-article-aside {
@@ -137,9 +141,9 @@
 }
 
 .products-img {
-	width: 200px;
-	height: 100px;
 	border-radius: 20px;
+	width: 300px;
+	height: 200px;
 }
 
 .cash {
@@ -193,10 +197,5 @@
 
 	.products {
 		grid-template-columns: auto 200px 200px 200px;
-	}
-
-	.products-img {
-		width: 300px;
-		height: 400px;
 	}
 }
