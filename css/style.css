@@ -213,6 +213,15 @@
   color: #fff;
 }
 
+.footer {
+  background: rgb(79, 79, 79);
+}
+
+.logo-footer {
+  letter-spacing: 2px;
+  color: #96ca68;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
 	.first-arcticle {
 		grid-template-columns: auto auto;
