@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap');
 
 .main-header {
 	transition: background-color 0.4s ease;
@@ -24,7 +25,7 @@
 
 .explore-button-cont {
   border: 2px solid rgb(68, 106, 68);
-	width: 170px;
+	width: 180px;
 }
 .explore-button {
 	color: #000;
@@ -102,9 +103,14 @@
 
 .products {
   background: rgb(79, 79, 79);
-	padding: 20px;
+	padding: 50px;
 	display: grid;
 	grid-template-columns: auto;
+	column-gap: 80px;
+}
+
+.first-card {
+	font-family: 'Recursive', sans-serif;
 }
 
 .inventory-button-cont {
@@ -128,6 +134,16 @@
 	transition: all ease-in-out 0.4s;
   text-decoration: underline rgb(88, 136, 88);
   color: #fff;
+}
+
+.products-img {
+	width: 200px;
+	height: 100px;
+	border-radius: 20px;
+}
+
+.cash {
+  color: rgb(68, 106, 68);
 }
 
 
@@ -176,7 +192,11 @@
 	}
 
 	.products {
-		grid-template-columns: auto auto auto auto;
+		grid-template-columns: auto 200px 200px 200px;
 	}
-	
+
+	.products-img {
+		width: 300px;
+		height: 400px;
+	}
 }
