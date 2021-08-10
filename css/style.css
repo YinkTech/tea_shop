@@ -213,7 +213,6 @@
   border: 2px solid #fff;
   border-radius: 4px;
   text-shadow: #96ca68;
-  height: 450px;
   letter-spacing: 1px;
 }
 
@@ -309,5 +308,9 @@
 
   .service-section {
     grid-template-columns: auto auto auto;
+  }
+
+  .service-child {
+    height: 450px;
   }
 }
