@@ -1,6 +1,6 @@
-# TeaSpot - A quick tea spot 
-# HTML & CSS capstone project (TeaSopt - A quick tea spot)
-A responsive website built following the original project specifications from [Capstone Project - Schools Search Engine](https://docs.google.com/document/d/1SW5rmE9Cl-8-Vm3qjBy8GMyMEd6kbl0RLatAM7iChzE/edit#heading=h.uzzkuipzhz6w)
+# TeaSpot - A quick tea buying spot 
+# HTML & CSS capstone project (TeaSopt - A quick tea buying spot)
+A responsive website built following the original project specifications from [Capstone Project - Tea Station](https://docs.google.com/document/d/1SW5rmE9Cl-8-Vm3qjBy8GMyMEd6kbl0RLatAM7iChzE/edit#heading=h.uzzkuipzhz6w)
 
 ### Main page
 ![screenshot](img/home.jpg)
